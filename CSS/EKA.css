@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(226, 227, 228);
+}
+form{
+    background-color: rgb(0, 0, 0);
+    padding: 15px;
+    border-radius: 15px;
+}
+input,textarea,button{
+    margin: 12px 0;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input:hover, textarea:hover{
+    background-color:darkgray(198, 173, 230);
+}
+img{
+    border-radius: 15px;
+    border: 2px solid darkblue;
+} 
+hr{
+    border: 1px solid darkblue;
+}
+h3{
+    color: darkblue;
+}
+p{
+    color: darkblue;
+    font-size: 18px;
+}
+.listitem .item:hover,.dropdown:hover .dropbtn{
+    background: rgb(105, 49, 49);
+
+}
+li.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background: rgb(124, 131, 62);
+    min-width: 100px;
+    z-index: 1;
+}
+.dropdown-content .subitem{
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+    font-size: 16px;
+}
+.dropdown-content .subitem:hover{
+    background: #f1f1f1;
+    color: rgb(176, 206, 196);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+h3{
+  font-family: sans-serif;
+  font-size: 20px;
+  color:rgb(11, 150, 192);
+}
+p{
+ font-family:cursive;
+ color:rgb(20, 76, 109);
+}
+.mg{
+background:rgb(218, 229, 188);
+}
+.pl{
+    background:rosybrown;
+}
+.cl{
+    background: rosybrown;
+}
+.tn{
+    background: rgb(87, 119, 131);
+}
+.cs{
+    background: rgb(201, 193, 193);
+}
+.r{
+    background:rgb(205, 193, 207);
+}
+* {box-sizing:full-width}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: rgba(148, 156, 154, 0.363);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(199, 191, 191, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+hr{
+    border: 4px solid sandybrown;
+    width: 91%;
+}
+.forms{
+    width:100%;
+    display: flex;
+}
+.contactUs{
+    width:50%;
+    background:rosybrown;
+    border-radius: 15px;
+    padding: 20px;
+}
+form{
+    margin-left:55px;
+}
+label{
+    font-family: sans-serif;
+    color: black;
+    size: 18px;
+}
+input[type=text],input[type=email],input[type=tel],textarea{
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+input[type=submit]{
+    width: 30%;
+    background: darkred;
+    color: azure;
+    font-family: sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=submit]:hover{
+    background: black;
+    color: white;
+}
+.logo{
+    padding-left:40px;
+    padding-top: 70px;
+}
+h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: darkred;
+}
+
+
+
+
+
+
+
+
